@@ -1,0 +1,137 @@
+body {
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	border: 1px solid #ccccff;
+	background: #eeeeff;
+	width: 960px;	
+	box-shadow: 3px 3px 10px 1px lightgray;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#header {
+	position: relative;
+	height: 150px;
+	display: block;
+	border-bottom: 1px solid #ccccff;
+	overflow: hidden;
+}
+
+#logo {
+	position: relative;
+	float: left;	
+	height: 150px;
+	width: 180px;
+	background-color: #eeeeff;
+	color: #0000aa;
+	font-size: 140%;
+	font-weight: 900;
+}
+
+#logo p {
+	position: absolute;
+	margin: 0px;
+	top: 14px;
+	left: 12px;
+	line-height: 140%;
+}
+
+#banner {
+	position: absolute;
+	float: right;
+	display: inline;
+	top: -1px;
+	right: -2px;
+	border: 1px solid #ccccff;
+	opacity: 0.7;
+	height: 150px;
+	width: 780px;
+}
+
+#wrapper {
+	position: relative;
+	clear: both;
+	height: 800px;
+	display: block;
+}
+
+#toolbar {
+	position: absolute;
+	float: left;
+	width: 18.75%;
+	height: 100%;
+	border-right: 1px solid #ccccff;
+	background-color: #ddddff;
+}
+
+#sidebox {
+	position: absolute;
+	width: 180px;
+}
+
+#navigation {
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#navigation a {
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+	border: 1px solid #aaaadd;
+	border-radius: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 80%;
+	background-color: #ccccee;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	background-color: #aaaaff;
+}
+
+#navigation a:active {
+	box-shadow: 2px 2px 10px 1px #ffcccc inset;
+}
+
+#widgets {
+	position: relative;	
+	margin: 18px;
+	font-size: 12px;
+}
+
+#content {
+	position: absolute;
+	right: 0px;
+	width: 81.25%;
+	height: 800px;
+	background-color: #eeeeff;
+	overflow-y: scroll;
+}
+
+#main {
+	margin: 10px;
+}
+
+#main h1, h2, h3, h4 {
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+#main p {
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#meetingbox {
+	position: relative;
+	margin: auto;
+	border: 3px solid black;
+	padding: 15px;
+	text-align: center;
+}
